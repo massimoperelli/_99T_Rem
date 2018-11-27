@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:_99T_Rem"
+             x:Class="_99T_Rem.MainPage">
+    <Grid RowSpacing="8"  VerticalOptions="FillAndExpand" Padding="5,20,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+        </Grid.RowDefinitions>
+        <StackLayout Orientation="Horizontal" Grid.Row="0" HorizontalOptions="FillAndExpand">
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelDebugSx" Grid.Column="2" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <Image Source="logofirstrow.png" Grid.Column="1" x:FieldModifier="public" HeightRequest="307" WidthRequest="400" HorizontalOptions="FillAndExpand">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageNameTapped" NumberOfTapsRequired="2" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label x:Name="labelDebugDx" Grid.Column="2" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="1" HorizontalOptions="FillAndExpand">
+            <Frame OutlineColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+                <Label x:Name="segmentMatrixGaugeRow1" x:FieldModifier="public" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="2" HorizontalOptions="FillAndExpand">
+            <Frame OutlineColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5">
+                <Label x:Name="segmentMatrixGaugeRow2" x:FieldModifier="public" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="FillAndExpand">
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelRoomNo" Grid.Column="0" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="Room N" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <Picker x:Name="pickerRoomNo" Grid.Column="1" x:FieldModifier="public" HorizontalOptions="FillAndExpand" FontSize="Large"  TextColor="Black">
+                    <Picker.Items>
+                        <x:String>00</x:String>
+                        <x:String>01</x:String>
+                        <x:String>02</x:String>
+                        <x:String>03</x:String>
+                        <x:String>04</x:String>
+                        <x:String>05</x:String>
+                        <x:String>06</x:String>
+                        <x:String>07</x:String>
+                        <x:String>08</x:String>
+                        <x:String>09</x:String>
+                        <x:String>10</x:String>
+                        <x:String>11</x:String>
+                        <x:String>12</x:String>
+                        <x:String>13</x:String>
+                        <x:String>14</x:String>
+                        <x:String>15</x:String>
+                        <x:String>16</x:String>
+                        <x:String>17</x:String>
+                        <x:String>18</x:String>
+                        <x:String>19</x:String>
+                        <x:String>20</x:String>
+                        <x:String>21</x:String>
+                        <x:String>22</x:String>
+                        <x:String>23</x:String>
+                        <x:String>24</x:String>
+                        <x:String>25</x:String>
+                        <x:String>26</x:String>
+                        <x:String>27</x:String>
+                        <x:String>28</x:String>
+                        <x:String>29</x:String>
+                        <x:String>30</x:String>
+                        <x:String>31</x:String>
+                        <x:String>32</x:String>
+                        <x:String>33</x:String>
+                        <x:String>34</x:String>
+                        <x:String>35</x:String>
+                        <x:String>36</x:String>
+                        <x:String>37</x:String>
+                        <x:String>38</x:String>
+                        <x:String>39</x:String>
+                        <x:String>40</x:String>
+                        <x:String>41</x:String>
+                        <x:String>42</x:String>
+                        <x:String>43</x:String>
+                        <x:String>44</x:String>
+                        <x:String>45</x:String>
+                        <x:String>46</x:String>
+                        <x:String>47</x:String>
+                        <x:String>48</x:String>
+                        <x:String>49</x:String>
+                        <x:String>50</x:String>
+                        <x:String>51</x:String>
+                        <x:String>52</x:String>
+                        <x:String>53</x:String>
+                        <x:String>54</x:String>
+                        <x:String>55</x:String>
+                        <x:String>56</x:String>
+                        <x:String>57</x:String>
+                        <x:String>58</x:String>
+                        <x:String>59</x:String>
+                        <x:String>60</x:String>
+                        <x:String>71</x:String>
+                        <x:String>72</x:String>
+                        <x:String>73</x:String>
+                        <x:String>74</x:String>
+                        <x:String>75</x:String>
+                        <x:String>76</x:String>
+                        <x:String>77</x:String>
+                        <x:String>78</x:String>
+                        <x:String>79</x:String>
+                        <x:String>80</x:String>
+                        <x:String>81</x:String>
+                        <x:String>82</x:String>
+                        <x:String>83</x:String>
+                        <x:String>84</x:String>
+                        <x:String>85</x:String>
+                        <x:String>86</x:String>
+                        <x:String>87</x:String>
+                        <x:String>88</x:String>
+                        <x:String>89</x:String>
+                        <x:String>90</x:String>
+                        <x:String>91</x:String>
+                        <x:String>92</x:String>
+                        <x:String>93</x:String>
+                        <x:String>94</x:String>
+                        <x:String>95</x:String>
+                        <x:String>96</x:String>
+                        <x:String>97</x:String>
+                        <x:String>98</x:String>
+                        <x:String>99</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Button x:Name="buttonSetRoomNo" Grid.Column="2" x:FieldModifier="public" Text="Set" HorizontalOptions="FillAndExpand"  FontSize="Large"  TextColor="Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="4" HorizontalOptions="FillAndExpand">
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelM3" Grid.Column="0" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="Mc" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <Entry x:Name="entryM3" Grid.Column="1" x:FieldModifier="public" Keyboard="Numeric" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" FontSize="Large" TextColor="Black"/>
+                <Button x:Name="buttonSetM3" Grid.Column="2" x:FieldModifier="public" Text="Set" HorizontalOptions="FillAndExpand"  FontSize="Large"  TextColor="Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="5" HorizontalOptions="FillAndExpand">
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="41.7*" />
+                    <ColumnDefinition Width="25*" />
+                    <ColumnDefinition Width="33.3*" />
+                </Grid.ColumnDefinitions>
+                <DatePicker x:Name="DP" Grid.Column="0" x:FieldModifier="public" HorizontalOptions="FillAndExpand" FontSize="Medium"  TextColor="Black"></DatePicker>
+                <TimePicker x:Name="TP" Grid.Column="1" x:FieldModifier="public" HorizontalOptions="FillAndExpand" FontSize="Large"  TextColor="Black"></TimePicker>
+                <Button x:Name="buttonSetDateTime" Grid.Column="2" x:FieldModifier="public" Text="Set" HorizontalOptions="FillAndExpand"  FontSize="Large"  TextColor="Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="6" HorizontalOptions="FillAndExpand">
+            <Button x:Name="buttonStart" x:FieldModifier="public" Text = "Start" HorizontalOptions="FillAndExpand" FontSize="Large"  TextColor = "Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="7" HorizontalOptions="FillAndExpand">
+            <Button x:Name="buttonReset" x:FieldModifier="public" Text="Reset" HorizontalOptions="FillAndExpand" FontSize="Large" TextColor="Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="8" HorizontalOptions="FillAndExpand">
+            <Label 	x:Name="labelMessaggio" x:FieldModifier="public" Text="Status" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

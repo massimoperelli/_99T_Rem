@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_99T_Rem.Settings">
+    <Grid RowSpacing="8"  VerticalOptions="FillAndExpand" Padding="5,20,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+            <RowDefinition Height="11.11*" />
+        </Grid.RowDefinitions>
+        <StackLayout Orientation="Horizontal" Grid.Row="0" HorizontalOptions="FillAndExpand">
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                    <ColumnDefinition Width="33.3*" />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelDebugSx" Grid.Column="0" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <Image Source="logofirstrow.png" Grid.Column="1" x:FieldModifier="public" HeightRequest="307" WidthRequest="400" HorizontalOptions="FillAndExpand" />
+                <Label x:Name="labelDebugDx" Grid.Column="2" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="1" HorizontalOptions="FillAndExpand">
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="2" HorizontalOptions="FillAndExpand">
+            <Label x:Name="labelIpOrName" x:FieldModifier="public" HorizontalOptions="FillAndExpand" Text="Ip/Host" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="FillAndExpand">
+            <Entry x:Name="entryIpOrName" x:FieldModifier="public" Keyboard="Default" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="4" HorizontalOptions="FillAndExpand">
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="5" HorizontalOptions="FillAndExpand">
+            <Button x:Name="buttonSet" x:FieldModifier="public" Text = "Set" HorizontalOptions="FillAndExpand" FontSize="Large"  TextColor = "Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="6" HorizontalOptions="FillAndExpand">
+            <Button x:Name="buttonCancel" x:FieldModifier="public" Text="Cancel" HorizontalOptions="FillAndExpand" FontSize="Large" TextColor="Black" BorderRadius="10" BorderWidth="2" BorderColor="Black" BackgroundColor="#FF007196"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="7" HorizontalOptions="FillAndExpand">
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="8" HorizontalOptions="FillAndExpand">
+        </StackLayout>
+    </Grid>
+</ContentPage>

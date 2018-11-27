@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>8.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>99TRem</string>
+	<key>CFBundleIdentifier</key>
+	<string>ch.99technologies.99TRem</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>UILaunchStoryboardName</key>
+	<string>(not set)</string>
+	<key>CFBundleName</key>
+	<string>_99T_Rem</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icon</string>
+		<string>icon@2x</string>
+		<string>icon-60</string>
+		<string>icon-60@2x</string>
+		<string>icon-60@3x</string>
+		<string>icon-72</string>
+		<string>icon-76</string>
+		<string>icon-76@2x</string>
+		<string>icon-83.5@2x</string>
+		<string>icon-167</string>
+		<string>icon-1024</string>
+		<string>icon-small</string>
+		<string>icon-small@2x</string>
+		<string>icon-small@3x</string>
+		<string>icon-small-40</string>
+		<string>icon-small-40@2x</string>
+		<string>icon-small-40@3x</string>
+		<string>icon-small-50</string>
+		<string>icon-small-50@2x</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+</dict>
+</plist>
